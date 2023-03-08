@@ -1,4 +1,6 @@
-let count = 0;
+let number = 0;
 
-var number = document.querySelector('#number');
-var btns = document.querySelectorAll('#btn');
+function counterFun() {
+  number++;
+  document.getElementById('number').innerHTML = number;
+}
