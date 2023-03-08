@@ -9,7 +9,7 @@ function counterFun() {
 function resetFun() {
   number = 0;
   document.getElementById('number').innerHTML = number;
-  document.getElementById('number').style.color = 'black';
+  document.getElementById('number').style.color = 'white';
 }
 
 function subtractFun() {
