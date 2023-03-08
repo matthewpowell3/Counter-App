@@ -1,3 +1,4 @@
 let count = 0;
 
-var number = document.querySelectorAll()
+var number = document.querySelector('#number');
+var btns = document.querySelectorAll('#btn');
