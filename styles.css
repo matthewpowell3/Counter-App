@@ -41,3 +41,13 @@ header {
   font-size: 25px;
   margin: 30px 0px;
 }
+
+button {
+  background-color: white;
+  color: black;
+  font-weight: 500;
+  padding: 4px 15px;
+  border: none;
+  border-radius: 6px;
+  display: inline-block;
+}
