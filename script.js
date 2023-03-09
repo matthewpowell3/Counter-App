@@ -3,9 +3,7 @@ let number = 0;
 function counterFun() {
   number++;
   document.getElementById('number').innerHTML = number;
-  if (number > 0) {
-    document.getElementById('number').style.color = 'lightgreen';
-  }
+  document.getElementById('number').style.color = 'lightgreen';
 }
 
 function resetFun() {
@@ -17,7 +15,5 @@ function resetFun() {
 function subtractFun() {
   number--;
   document.getElementById('number').innerHTML = number;
-  if (number < 0) {
-    document.getElementById('number').style.color = 'red';
-  }
+  document.getElementById('number').style.color = 'red';
 }
