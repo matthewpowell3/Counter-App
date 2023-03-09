@@ -11,9 +11,7 @@ function counterFun() {
 function resetFun() {
   number = 0;
   document.getElementById('number').innerHTML = number;
-  if (number == 0) {
-    document.getElementById('number').style.color = 'white';
-  }
+  document.getElementById('number').style.color = 'white';
 }
 
 function subtractFun() {
